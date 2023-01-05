@@ -20,6 +20,7 @@ int main() {
   cin >> Interest;
   cout << "Do you have a down payment? [y|n]\n";
   cin >> DownpaymentCheck;
+  cout << "\n";
   if (DownpaymentCheck == "Y" || "Yes" || "y" || "yes" || "YES") {
     cout << "How much?\n";
     cin >> Downpayment;
